@@ -1,0 +1,85 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.parent1 {
+    width: 1200px;
+    
+}
+
+.parent1 > div {
+    float: left;
+    width: 400px;
+    height: 400px;
+    background: red;
+    outline: 1px solid black;
+    
+}
+
+.child1 {
+    float: left;
+    width: 600px;
+    background: pink;
+    outline: 1px solid black;
+    
+}
+
+.child1 > div {
+    height: 200px;
+    outline: 1px solid black;
+    
+}
+.parent2 {
+    float: left;
+}
+
+.child2 {
+    float: left;
+    width: 600px;
+    background: pink;
+    outline: 1px solid black;
+}
+
+.child2 > div {
+    height: 133.3px;
+    outline: 1px solid black;
+}
+
+.parent3 {
+    float: left;
+}
+.child3 {
+    float: left;
+    width: 400px;
+    height: 400px;
+    background: orange;
+    outline: 1px solid black;
+}
+
+.child4 {
+    float: left;
+    width: 800px;
+    background: orange;
+    outline: 1px solid black;
+}
+
+.baby1 {
+    height: 200px;
+    outline: 1px solid black;
+}
+
+.baby2 {
+    float: left;
+    height: 200px;
+    width: 400px;
+    outline: 1px solid black
+}
+
+.baby3 > div{
+    float: left;
+    height: 100px;
+    width: 400px;
+    outline: 1px solid black;
+}
